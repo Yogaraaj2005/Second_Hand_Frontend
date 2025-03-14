@@ -39,7 +39,7 @@ const Login = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
-      <Title>Logi</Title>
+      <Title>Login</Title>
       <Form onSubmit={handleLogin}>
         {error && <ErrorMessage>{error}</ErrorMessage>}
         <AnimatedInput type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
