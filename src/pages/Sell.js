@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Sell = () => {
   const [products] = useState([
-    { id: 1, title: "iPhone 12", image: "/images/iphone12.jpg" },
+    { id: 1, title: "iPhone 16", image: "/images/iphone16.jpg" },
     { id: 2, title: "Gaming Laptop", image: "/images/laptop.jpg" },
     { id: 3, title: "Wireless Headphones", image: "/images/headphones.jpg" },
     { id: 4, title: "Smartwatch", image: "/images/smartwatch.jpg" },
